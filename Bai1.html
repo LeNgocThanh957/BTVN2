@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let diemVatLy = parseFloat(prompt("Nhập vào điểm Vật lý:"));
+let diemHoaHoc = parseFloat(prompt("Nhập vào điểm Hóa học:"));
+let diemSinhHoc = parseFloat(prompt("Nhập vào điểm Sinh học:"));
+let tongDiem = diemVatLy+diemHoaHoc+diemSinhHoc;
+let diemTrungbinh = tongDiem / 3;
+document.write("Điểm trung bình: "+diemTrungbinh+'<br>');
+document.write("Tổng điểm 3 môn: "+tongDiem);
+</script>
+</body>
+</html>
